@@ -6,8 +6,7 @@ public class MainCamera : MonoBehaviour
 {
     [Header("Ustawienia Kamery")]
 
-    [SerializeField] private Vector3 distance;
-    [SerializeField] private float lookUp;
+    [SerializeField] private Vector3 distance;    
     [SerializeField] private float lerpAmount;
 
     private GameObject player;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [Header("Ustawienia Gracza")]
     [SerializeField] private float speed;
@@ -13,9 +13,6 @@ public class PlayerMovement : MonoBehaviour
     private bool facingRight = true;
     private float hDirection;
     private float vDirection;
-
-    private Vector3 moveH = new Vector3(0, 0, 0);
-    private Vector3 moveV = new Vector3(0, 0, 0);
 
     private void Start()
     {
@@ -34,6 +31,11 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("IsMoving", false);
+        }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
         }
     }
     private void FixedUpdate()
@@ -69,6 +71,13 @@ public class PlayerMovement : MonoBehaviour
     {
         facingRight = !facingRight;
         transform.Rotate(0f, 180f, 0f);
+    }
+    public Transform crossbow;
+    public GameObject bolt;
+    
+    void Shoot()
+    {
+        Instantiate(bolt, crossbow.position, crossbow.rotation);
     }
 
 }
