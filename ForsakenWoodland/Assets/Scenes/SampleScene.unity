@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1083995142562705673, guid: 65fae936ad3028743803b546d606b93d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1083995142562705673, guid: 65fae936ad3028743803b546d606b93d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -189,7 +189,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1083995142562705673, guid: 65fae936ad3028743803b546d606b93d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1083995142562705673, guid: 65fae936ad3028743803b546d606b93d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -374,7 +374,7 @@ Transform:
   m_LocalScale: {x: 26.446224, y: 16.785582, z: 10.606563}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -559,7 +559,7 @@ Transform:
   m_Children:
   - {fileID: 657063756}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &614622200
 Rigidbody2D:
@@ -595,18 +595,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0004300773, y: -0.21074909}
+  m_Offset: {x: -0.0004300773, y: -0.11035472}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.025, y: 0.095}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7490501, y: 1.3092195}
+  m_Size: {x: 0.3770011, y: 0.65370524}
   m_EdgeRadius: 0
 --- !u!114 &614622202
 MonoBehaviour:
@@ -666,7 +666,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657063755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: -0.53, z: 0}
+  m_LocalPosition: {x: 0.18, y: -0.243, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 614622199}
@@ -681,7 +681,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1083995142562705673, guid: 65fae936ad3028743803b546d606b93d, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1083995142562705673, guid: 65fae936ad3028743803b546d606b93d, type: 3}
       propertyPath: m_LocalPosition.x
