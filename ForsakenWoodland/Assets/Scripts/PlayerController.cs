@@ -9,12 +9,19 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    public static PlayerController pm;
 
     Vector2 movement;
 
     //strzelanie
     public Transform crossbow;
     public GameObject bolt;
+    public GameObject player;
+
+    public void Awake()
+    {
+        pm = this;
+    }
 
     private void Start()
     {
