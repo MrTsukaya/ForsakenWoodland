@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization;
+using System.IO;
 
 public class GameManager : MonoBehaviour
 {
     private int sceneIndex;
 
     public int gold;
-
+    public List<GameObject> livingEnemies = new List<GameObject>();
     public static GameManager instance;
+    
     private void Awake()
     {
         if (GameManager.instance != null)
@@ -17,13 +21,34 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        instance = this;        
+        instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
+
     private void Start()
     {
+        livingEnemies.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
+
+    private Save CreateSave()
+    {
+        Save save = new Save();
+
+        foreach (GameObject livEnemy in livingEnemies)
+        {
+            SampleEnemy sm = livEnemy.GetComponent<SampleEnemy>();
+            if(sm.sampleEnemy != null)
+            {
+                save.livingEnemiesPositions.Add(sm.position);
+                save.livingEnemiesHealth.Add(sm.health);
+            }
+        }
+        save.stageIndex = sceneIndex;
+        save.gold = gold;
+        return save;
+    }
+
     public void RestartLevel()
     {
         SceneManager.LoadScene(sceneIndex);
@@ -41,11 +66,47 @@ public class GameManager : MonoBehaviour
     }
     public void SaveState()
     {
-        //zapis
+        Save save = CreateSave();
+
+        BinaryFormatter bf = new BinaryFormatter();
+        FileStream file = File.Create(Application.persistentDataPath + "/gameSave.dat");
+        bf.Serialize(file, save);
+        file.Close();
+        Debug.Log("Game Saved!");
+        SceneManager.LoadScene("Menu");
     }
     public void LoadState()
     {
-        //wczytanie
+        Debug.Log("Loading the game...");
+        if(File.Exists(Application.persistentDataPath + "/gameSave.dat"))
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open(Application.persistentDataPath + "/gameSave.dat", FileMode.Open);
+            Save save = (Save)bf.Deserialize(file);
+            file.Close();
+
+            for(int i = 0; i < save.livingEnemiesPositions.Count; i++)
+            {
+                int position = save.livingEnemiesPositions[i];
+                SampleEnemy sampleEnemy = livingEnemies[position].GetComponent<SampleEnemy>();
+                sampleEnemy.health = save.livingEnemiesHealth[position];
+            }
+
+            gold = save.gold;
+            sceneIndex = save.stageIndex;
+            SceneManager.LoadScene(sceneIndex);
+            Debug.Log("Game Loaded");
+            Time.timeScale = 1;
+        }
+        else
+        {
+            Debug.Log("No save file!");
+        }
     }
 
+    public void ExitGame()
+    {
+        Debug.Log("Exit dzia³a");
+        Application.Quit();
+    }
 }

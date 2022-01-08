@@ -5,16 +5,18 @@ using UnityEngine;
 public class SampleEnemy : MonoBehaviour
 {
     [Header("Ustawienia przeciwnika")]
-    [SerializeField] private int health = 100;
+    public GameObject sampleEnemy;
+    public int position;
+    [SerializeField] public int health = 100;
     [SerializeField] GameObject drop;
-
-
-
+    
     public void TakeDamage(int dmg)
     {
         health -= dmg;
         if(health <= 0)
         {
+            Debug.Log("Obiekt " + gameObject + " zosta³ usuniêty");
+            GameManager.instance.livingEnemies.Remove(gameObject);
             Drop();
             Die();
         }
