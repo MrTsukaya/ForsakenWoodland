@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Ustawienia Gracza")]
     [SerializeField] private float speed;
+    [SerializeField] private int healthPlayer = 200;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -79,8 +80,6 @@ public class PlayerController : MonoBehaviour
             crossbow.localRotation = Quaternion.Euler(0, 0, -90);
         }
 
-
-
         //wystrza³
         if (Input.GetButtonDown("Fire1"))
         {
@@ -96,6 +95,17 @@ public class PlayerController : MonoBehaviour
     {
         Instantiate(bolt, crossbow.position, crossbow.rotation);
     }
-    
-   
+
+    public void TakeDamagePlayer(int dmg)
+    {
+        //je¿eli hp gracza spadnie poni¿ej 0 to jest reset poziomu
+        healthPlayer -= dmg;
+        Debug.Log("HP gracza to " + healthPlayer);
+        if (healthPlayer <= 0)
+        {
+            GameManager.instance.RestartLevel();           
+        }
+    }
+
+
 }

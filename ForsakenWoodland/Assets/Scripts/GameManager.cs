@@ -10,8 +10,13 @@ public class GameManager : MonoBehaviour
 {
     private int sceneIndex;
 
-    public int gold;
+    private int enemyCount;
+    private bool killedAllEnemies = false;
     public List<GameObject> livingEnemies = new List<GameObject>();
+
+
+    public int gold;
+    
     public static GameManager instance;
     
     private void Awake()
@@ -27,7 +32,12 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        //dodaje do listy wszystkie obiekty z tagiem Enemy
         livingEnemies.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
+        //Licznik
+        enemyCount = livingEnemies.Count;
+        Debug.Log("Iloœæ przeciwników :" + enemyCount);
+
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
@@ -108,5 +118,17 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Exit dzia³a");
         Application.Quit();
+    }
+
+    public void EnemyDown()
+    {
+        //odejmuje z licznika 
+        enemyCount--;
+        Debug.Log("Iloœæ przeciwników :" + enemyCount);
+        if (enemyCount == 0)
+        {
+            killedAllEnemies = true;
+        }
+        Debug.Log(killedAllEnemies);
     }
 }
