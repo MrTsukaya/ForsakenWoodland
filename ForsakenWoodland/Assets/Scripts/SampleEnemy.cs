@@ -41,8 +41,7 @@ public class SampleEnemy : MonoBehaviour
             attackDelay -= Time.deltaTime;   
             if(attackDelay <= 0)
             {
-                attacked = false;
-                Debug.LogError("RESET ATAKU");
+                attacked = false;               
             }
         }
         
@@ -72,8 +71,7 @@ public class SampleEnemy : MonoBehaviour
     //drop itemka
     private void Drop()
     {
-        int chance = Random.Range(1, 4);
-        Debug.Log(chance);
+        int chance = Random.Range(1, 4);        
         if(chance == 3)
         {
             Instantiate(drop, transform.position, transform.rotation);

@@ -128,7 +128,9 @@ public class GameManager : MonoBehaviour
         if (enemyCount == 0)
         {
             killedAllEnemies = true;
+            Debug.Log("Wszyscy przeciwnicy zostali zabici");
+
         }
-        Debug.Log(killedAllEnemies);
+
     }
 }

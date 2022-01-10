@@ -99,8 +99,7 @@ public class PlayerController : MonoBehaviour
     public void TakeDamagePlayer(int dmg)
     {
         //je¿eli hp gracza spadnie poni¿ej 0 to jest reset poziomu
-        healthPlayer -= dmg;
-        Debug.Log("HP gracza to " + healthPlayer);
+        healthPlayer -= dmg;        
         if (healthPlayer <= 0)
         {
             GameManager.instance.RestartLevel();           
