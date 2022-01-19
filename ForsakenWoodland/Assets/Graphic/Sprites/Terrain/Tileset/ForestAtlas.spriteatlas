@@ -66,6 +66,9 @@ SpriteAtlas:
   - {fileID: -5310194085209439986, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: -5272604227190475179, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: 6012787321573341666, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: -8732676027746166060, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: 8724417273247839679, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: -1770856080480003670, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: 8817397377394148504, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: 963502304614371313, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: -7393894852323772832, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
@@ -89,6 +92,9 @@ SpriteAtlas:
   - rock_1
   - rock_0
   - rock_2
+  - bush_0
+  - bush_1
+  - bush_2
   - coin_1
   - coin_0
   - coin_3
