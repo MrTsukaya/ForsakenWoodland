@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SampleEnemy : MonoBehaviour
+public class SampleEnemy : Killable
 {
     [Header("Ustawienia przeciwnika")]
     // po co to ?
     public GameObject sampleEnemy;
     public int position;
-
-    [SerializeField] public int health = 100;
-    [SerializeField] public int damage = 20;
+   
+    [SerializeField] private int damage = 20;
+    [SerializeField] private float pushForce = 2f;
     [SerializeField] GameObject drop;
 
     [SerializeField] public float attackDelay = 3;
@@ -18,18 +18,18 @@ public class SampleEnemy : MonoBehaviour
 
     //na kolizji sprawdza czy gracz, jak tak to mu bije
     private void OnCollisionStay2D(Collision2D collision)
-    {        
+    {      
         if (collision.collider.CompareTag("Player"))
-        {           
-            PlayerController player = collision.collider.GetComponent<PlayerController>();
-            if (player != null && attacked == false)
+        {
+            if(!attacked)
             {
-                player.TakeDamagePlayer(20);
-
+                Damage dmg = new Damage(transform.position, damage, pushForce);
+                collision.collider.SendMessage("TakeDamage", dmg);
                 //daje delay ¿eby gracz nie gin¹³ w sekundê XD
                 attacked = true;
-                attackDelay = 3;     
+                attackDelay = 3;
             }
+            
         }
     }
     private void Update()
@@ -43,30 +43,14 @@ public class SampleEnemy : MonoBehaviour
             {
                 attacked = false;               
             }
-        }
-        
+        }        
     }
-
-    // funkcja otrzymywania obra¿eñ
-    public void TakeDamage(int dmg)
+    protected override void Die()
     {
-        health -= dmg;
-        if(health <= 0)
-        {
-            //usuwa obiekt z listy GM
-            GameManager.instance.livingEnemies.Remove(gameObject);
-            //zmniejsza enemy counter o 1
-            GameManager.instance.EnemyDown();
-            Debug.Log("Obiekt " + gameObject + " zosta³ usuniêty");
-
-            Drop();
-            Die();
-        }
-    }
-    //niszczy obiekt
-    private void Die()
-    {
-        Destroy(gameObject);
+        GameManager.instance.livingEnemies.Remove(gameObject);
+        GameManager.instance.EnemyDown();
+        Drop();
+        base.Die();
     }
     //drop itemka
     private void Drop()

@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
             if(sm.sampleEnemy != null)
             {
                 save.livingEnemiesPositions.Add(sm.position);
-                save.livingEnemiesHealth.Add(sm.health);
+                save.livingEnemiesHealth.Add(sm.currentHealth);
             }
         }
         save.stageIndex = sceneIndex;
@@ -99,7 +99,7 @@ public class GameManager : MonoBehaviour
             {
                 int position = save.livingEnemiesPositions[i];
                 SampleEnemy sampleEnemy = livingEnemies[position].GetComponent<SampleEnemy>();
-                sampleEnemy.health = save.livingEnemiesHealth[position];
+                sampleEnemy.currentHealth = save.livingEnemiesHealth[position];
             }
 
             gold = save.gold;

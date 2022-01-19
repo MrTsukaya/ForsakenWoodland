@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bolt : MonoBehaviour
 {
     [SerializeField] float bulletSpeed = 20f;
+    [SerializeField] float pushForce = 1f;
     [SerializeField] int boltDamage = 20;
     private Rigidbody2D bulletRig;
    
@@ -17,10 +18,10 @@ public class Bolt : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SampleEnemy enemy = collision.GetComponent<SampleEnemy>();
-        if (enemy != null)
+        if(collision.CompareTag("Enemy"))
         {
-            enemy.TakeDamage(boltDamage);
+            Damage dmg = new Damage(transform.position, boltDamage, pushForce);
+            collision.SendMessage("TakeDamage", dmg);
         }
         if (!collision.CompareTag("Player"))
             Destroy(gameObject);
@@ -32,3 +33,4 @@ public class Bolt : MonoBehaviour
         Destroy(gameObject, 1);
     }
 }
+

@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Killable
 {
+
     [Header("Ustawienia Gracza")]
     [SerializeField] private float speed;
-    [SerializeField] private int healthPlayer = 200;
+    [SerializeField] private int playerHealth = 200;
+
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -27,7 +29,8 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
+        currentHealth = playerHealth;
     }
     private void Update()
     {
@@ -48,8 +51,6 @@ public class PlayerController : MonoBehaviour
         //przesy³a dane do animatora które wykorzystamy w blend tree Movement
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-
-
 
         //prosty if do przejœcia z chodzenia na idle etc
         if(movement.x != 0 || movement.y != 0)
@@ -96,15 +97,8 @@ public class PlayerController : MonoBehaviour
         Instantiate(bolt, crossbow.position, crossbow.rotation);
     }
 
-    public void TakeDamagePlayer(int dmg)
+    protected override void Die()
     {
-        //je¿eli hp gracza spadnie poni¿ej 0 to jest reset poziomu
-        healthPlayer -= dmg;        
-        if (healthPlayer <= 0)
-        {
-            GameManager.instance.RestartLevel();           
-        }
+        GameManager.instance.RestartLevel();
     }
-
-
 }
