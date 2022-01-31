@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class SampleEnemy : Killable
 {
-    [Header("Ustawienia przeciwnika")]
+    
     // po co to ?
     public GameObject sampleEnemy;
     public int position;
-   
+    [Header("Enemy DMG Settings")]
     [SerializeField] private int damage = 20;
-    [SerializeField] private float pushForce = 2f;
+    [SerializeField] private float pushForce = 2f;   
+    [SerializeField] private float attackDelay = 3;
+    [Header("Enemy Loot Settings")]
     [SerializeField] GameObject drop;
 
-    [SerializeField] public float attackDelay = 3;
     private bool attacked = false;
 
     //na kolizji sprawdza czy gracz, jak tak to mu bije

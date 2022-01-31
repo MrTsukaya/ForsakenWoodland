@@ -61,6 +61,9 @@ SpriteAtlas:
   - {fileID: -2058867857214338133, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: 5938790294348221397, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: -1234526971367054790, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: -1713757466550246563, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: -5994679063047739716, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: 7305560205178018812, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: 3352467622735325798, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: -2669029799029691653, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: -5310194085209439986, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
@@ -87,6 +90,9 @@ SpriteAtlas:
   - ground_4
   - ground_9
   - ground_8
+  - forest_tileset_26
+  - forest_tileset_27
+  - forest_tileset_25
   - coin_02
   - grass_0
   - rock_1

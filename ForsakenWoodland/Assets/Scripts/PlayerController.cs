@@ -7,9 +7,8 @@ public class PlayerController : Killable
 
     [Header("Ustawienia Gracza")]
     [SerializeField] private float speed;
-    [SerializeField] private int playerHealth = 200;
-
-
+    [SerializeField] private float boltDelay = 2f;
+    private float shotTime;
     private Rigidbody2D rb;
     private Animator animator;
     public static PlayerController pm;
@@ -29,8 +28,7 @@ public class PlayerController : Killable
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        currentHealth = playerHealth;
+        animator = GetComponent<Animator>();  
     }
     private void Update()
     {
@@ -83,8 +81,9 @@ public class PlayerController : Killable
 
         //wystrza³
         if (Input.GetButtonDown("Fire1"))
-        {
-            Shoot();
+        {            
+            animator.SetTrigger("Shoot");            
+            Shoot();       
         }
     }
     private void FixedUpdate()
@@ -93,8 +92,8 @@ public class PlayerController : Killable
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
     private void Shoot()
-    {
-        Instantiate(bolt, crossbow.position, crossbow.rotation);
+    {       
+        Instantiate(bolt, crossbow.position, crossbow.rotation);        
     }
 
     protected override void Die()

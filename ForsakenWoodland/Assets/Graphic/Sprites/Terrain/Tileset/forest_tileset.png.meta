@@ -77,6 +77,15 @@ TextureImporter:
   - first:
       213: -1770856080480003670
     second: bush_2
+  - first:
+      213: 7305560205178018812
+    second: forest_tileset_25
+  - first:
+      213: -1713757466550246563
+    second: forest_tileset_26
+  - first:
+      213: -5994679063047739716
+    second: forest_tileset_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -636,7 +645,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -657,7 +666,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -678,7 +687,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -686,6 +695,69 @@ TextureImporter:
       bones: []
       spriteID: aa916a6f6c7ac67e0800000000000000
       internalID: -1770856080480003670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 142
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb9dd2dc40926560800000000000000
+      internalID: 7305560205178018812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 141
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53691ff9a28738e0800000000000000
+      internalID: -1713757466550246563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 140
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb66190472f9ecca0800000000000000
+      internalID: -5994679063047739716
       vertices: []
       indices: 
       edges: []
