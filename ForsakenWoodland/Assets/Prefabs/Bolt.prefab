@@ -145,4 +145,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 7
+  pushForce: 0.5
   boltDamage: 20

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1083995142562705678}
   - component: {fileID: 1083995142562705679}
   - component: {fileID: 1083995142562705676}
-  - component: {fileID: 360778317}
+  - component: {fileID: 5973411524787962549}
   - component: {fileID: 360778318}
   m_Layer: 0
   m_Name: SampleEnemy
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1083995142562705677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.33, y: -0.1, z: 0}
-  m_LocalScale: {x: 0.27104548, y: 0.23931186, z: 0.5037084}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,12 +98,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de35b68f850cf47bfb8eea4307cb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentHealth: 100
+  maxHealth: 100
+  pushRecoverySpeed: 0.2
+  speed: 1
   sampleEnemy: {fileID: 0}
   position: 0
-  health: 100
   damage: 20
-  drop: {fileID: 7075085950687207386, guid: 5d228a9fb3cf27147b32d898526787f5, type: 3}
+  pushForce: 2
   attackDelay: 3
+  drop: {fileID: 0}
 --- !u!70 &1083995142562705676
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,18 +124,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!114 &360778317
-MonoBehaviour:
+--- !u!50 &5973411524787962549
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083995142562705677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceea523ce5eecdc4e976e11ce3ec6d45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!195 &360778318
 NavMeshAgent:
   m_ObjectHideFlags: 0

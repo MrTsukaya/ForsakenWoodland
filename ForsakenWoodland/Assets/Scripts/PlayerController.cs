@@ -7,9 +7,8 @@ public class PlayerController : Killable
 
     [Header("Ustawienia Gracza")]
     [SerializeField] private float speed;
-    [SerializeField] private float boltDelay = 2f;
-    private float shotTime;
-    private Rigidbody2D rb;
+    //[SerializeField] private float boltDelay = 2f;
+    private float shotTime;    
     private Animator animator;
     public static PlayerController pm;
 
@@ -24,12 +23,13 @@ public class PlayerController : Killable
     {
         pm = this;
     }
-
-    private void Start()
+    protected override void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();  
+        animator = GetComponent<Animator>();
+        base.Start();
     }
+      
+
     private void Update()
     {
         //ruszanie siê
@@ -85,9 +85,16 @@ public class PlayerController : Killable
             animator.SetTrigger("Shoot");            
             Shoot();       
         }
+
+        Debug.Log(currentHealth);
     }
     private void FixedUpdate()
     {
+        //Add push force if any
+        if (pushDirection != null)
+            movement += pushDirection;
+        //Reduce push force every frame based od recovery speed
+        pushDirection = Vector3.Lerp(pushDirection, Vector3.zero, pushRecoverySpeed);
         //ruszamy siê xD
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
