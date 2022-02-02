@@ -5,8 +5,8 @@ using UnityEngine;
 public class Killable : MonoBehaviour
 {
     [Header("HP Settings")]
-    [SerializeField] public int currentHealth = 100;
-    [SerializeField] public int maxHealth = 100;
+    [SerializeField] public int currentHealth;
+    [SerializeField] public int maxHealth;
     [SerializeField] protected float pushRecoverySpeed = 0.2f;
     protected Rigidbody2D rb;
 

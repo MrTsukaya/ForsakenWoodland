@@ -98,15 +98,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85de35b68f850cf47bfb8eea4307cb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 100
-  maxHealth: 100
+  currentHealth: 40
+  maxHealth: 40
   pushRecoverySpeed: 0.2
   speed: 1
   sampleEnemy: {fileID: 0}
   position: 0
-  damage: 20
+  damage: 1
   pushForce: 2
-  attackDelay: 3
+  cooldown: 0.3
+  lastSwing: 0
   drop: {fileID: 0}
 --- !u!70 &1083995142562705676
 CapsuleCollider2D:

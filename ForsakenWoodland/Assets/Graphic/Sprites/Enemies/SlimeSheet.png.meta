@@ -1,0 +1,1704 @@
+fileFormatVersion: 2
+guid: 5f8d3012199a80e4a9d3f090319dc539
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6955344875524508589
+    second: slimePinkLeft1
+  - first:
+      213: -7445096386564566921
+    second: slimePinkLeft2
+  - first:
+      213: -3990442772814231160
+    second: slimeBlueLeft1
+  - first:
+      213: -6775867435950622097
+    second: slimeBlueLeft2
+  - first:
+      213: 5262790422144453505
+    second: slimeBlueAttackLeft1
+  - first:
+      213: 8234378943944915663
+    second: slimeBlueAttackRight1
+  - first:
+      213: -4796287267699694064
+    second: slimePinkRight1
+  - first:
+      213: -4923939538588890809
+    second: slimePinkRight2
+  - first:
+      213: -3697679656783304044
+    second: slimeBlueRight1
+  - first:
+      213: 514803725409338267
+    second: slimeBlueRight2
+  - first:
+      213: -6717075153015832618
+    second: slimeBlueAttackLeft2
+  - first:
+      213: -2502255501591114200
+    second: slimeBlueAttackRight2
+  - first:
+      213: -5676342062433471099
+    second: slimePinkAttackLeft1
+  - first:
+      213: -7710253599304139726
+    second: slimePinkAttackLeft2
+  - first:
+      213: 4263027233902804880
+    second: slimePinkAttackLeft3
+  - first:
+      213: 3482499070894955817
+    second: slimePinkAttackLeft4
+  - first:
+      213: -3977807375787795071
+    second: slimePinkAttackLeft5
+  - first:
+      213: -4520516830574042079
+    second: slimePinkAttackLeft6
+  - first:
+      213: 509559347117810534
+    second: slimePinkAttackLeft7
+  - first:
+      213: -3495528249794014484
+    second: slimePinkAttackLeft8
+  - first:
+      213: 7264723209847282489
+    second: slimePinkAttackLeft9
+  - first:
+      213: 1952915715730566691
+    second: slimeBlueAttackLeft3
+  - first:
+      213: 7527051874241966221
+    second: slimeBlueAttackRight3
+  - first:
+      213: 8382272466659824390
+    second: slimePinkAttackRight1
+  - first:
+      213: -4808951485247125017
+    second: slimePinkAttackRight2
+  - first:
+      213: 2236008607142569514
+    second: slimePinkAttackRight3
+  - first:
+      213: -3485670232292474898
+    second: slimePinkAttackRight4
+  - first:
+      213: -3699743193150107378
+    second: slimePinkAttackRight5
+  - first:
+      213: -6326855641871410642
+    second: slimePinkAttackRight6
+  - first:
+      213: 7893893868717499243
+    second: slimePinkAttackRight7
+  - first:
+      213: -8568719900876588424
+    second: slimePinkAttackRight8
+  - first:
+      213: 8927226636481704804
+    second: slimePinkAttackRight9
+  - first:
+      213: -5002448691381965661
+    second: slimeBlueAttackLeft4
+  - first:
+      213: -3792742719814434821
+    second: slimeBlueAttackRight4
+  - first:
+      213: -7913032838966195120
+    second: slimeGreenLeft1
+  - first:
+      213: 5000674411969929396
+    second: slimeGreenLeft2
+  - first:
+      213: 5349790043166985979
+    second: slimeBlueAttackLeft5
+  - first:
+      213: -6111293521808687113
+    second: slimeBlueAttackRight5
+  - first:
+      213: 8617244062175517026
+    second: slimeGreenRight1
+  - first:
+      213: -8950045210057687649
+    second: slimeGreenRight2
+  - first:
+      213: 8403904343009835180
+    second: slimeBlueAttackLeft6
+  - first:
+      213: -8628837149798094377
+    second: slimeBlueAttackRight6
+  - first:
+      213: 1551289333211188207
+    second: slimeGreenAttackLeft1
+  - first:
+      213: 6862010706332631279
+    second: slimeGreenAttackLeft2
+  - first:
+      213: 2319091995184373951
+    second: slimeGreenAttackLeft3
+  - first:
+      213: -5844570911621789494
+    second: slimeGreenAttackLeft4
+  - first:
+      213: -4725274929700584505
+    second: slimeGreenAttackLeft5
+  - first:
+      213: 5736861858636594930
+    second: slimeGreenAttackLeft6
+  - first:
+      213: -6781287932357193677
+    second: slimeGreenAttackLeft7
+  - first:
+      213: 7609394015869889282
+    second: slimeGreenAttackLeft8
+  - first:
+      213: -7603529242815095203
+    second: slimeGreenAttackLeft9
+  - first:
+      213: 87997087506643493
+    second: slimeBlueAttackLeft7
+  - first:
+      213: 316206609595942964
+    second: slimeBlueAttackRight7
+  - first:
+      213: -76654923168325188
+    second: slimeGreenAttackRight1
+  - first:
+      213: 8193057694639673176
+    second: slimeGreenAttackRight2
+  - first:
+      213: -3877010058096914895
+    second: slimeGreenAttackRight3
+  - first:
+      213: -7535437377974203021
+    second: slimeGreenAttackRight4
+  - first:
+      213: -2024678816008676031
+    second: slimeGreenAttackRight5
+  - first:
+      213: -2050634346789495302
+    second: slimeGreenAttackRight6
+  - first:
+      213: -2704333948205839301
+    second: slimeGreenAttackRight7
+  - first:
+      213: -8916288627916891741
+    second: slimeGreenAttackRight8
+  - first:
+      213: -2548449626398395219
+    second: slimeGreenAttackRight9
+  - first:
+      213: -3703121137438058162
+    second: slimeBlueAttackLeft8
+  - first:
+      213: 5359616372496916138
+    second: slimeBlueAttackRight8
+  - first:
+      213: 4606513788014204820
+    second: slimeBlueAttackLeft9
+  - first:
+      213: 7721373561105684853
+    second: slimeBlueAttackRight9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimePinkLeft1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 277
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354370ccfa6a97f90800000000000000
+      internalID: -6955344875524508589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkLeft2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 277
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77056404844bda890800000000000000
+      internalID: -7445096386564566921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueLeft1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 277
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88902edb0791f98c0800000000000000
+      internalID: -3990442772814231160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueLeft2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 277
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab603977847f1a0800000000000000
+      internalID: -6775867435950622097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 277
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b8f376100390940800000000000000
+      internalID: 5262790422144453505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 277
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcafacb9504664270800000000000000
+      internalID: 8234378943944915663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkRight1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 245
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016e700542a207db0800000000000000
+      internalID: -4796287267699694064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkRight2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 245
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74988eae317aaabb0800000000000000
+      internalID: -4923939538588890809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueRight1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 245
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a2e3c71f33facc0800000000000000
+      internalID: -3697679656783304044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueRight2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 245
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93421eb243f42700800000000000000
+      internalID: 514803725409338267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 245
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df73e6acb728c2a0800000000000000
+      internalID: -6717075153015832618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 245
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e056af0e3364dd0800000000000000
+      internalID: -2502255501591114200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 213
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5857b0108f49931b0800000000000000
+      internalID: -5676342062433471099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 213
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cbc4db33daff490800000000000000
+      internalID: -7710253599304139726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 213
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fb798cea0592b30800000000000000
+      internalID: 4263027233902804880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 213
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d52533472545030800000000000000
+      internalID: 3482499070894955817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 213
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d5d3d544dfbc8c0800000000000000
+      internalID: -3977807375787795071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 213
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124a570b4e5e341c0800000000000000
+      internalID: -4520516830574042079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 213
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663efe4c681521700800000000000000
+      internalID: 509559347117810534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 213
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce25fa0b3936d7fc0800000000000000
+      internalID: -3495528249794014484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackLeft9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 213
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b9b7ae44b71d460800000000000000
+      internalID: 7264723209847282489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 213
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ee5681f762a1b10800000000000000
+      internalID: 1952915715730566691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 213
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d807122bcc5757860800000000000000
+      internalID: 7527051874241966221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603dbc1b560d35470800000000000000
+      internalID: 8382272466659824390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 181
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e902c36a1c234db0800000000000000
+      internalID: -4808951485247125017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 181
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26e2773bf5e70f10800000000000000
+      internalID: 2236008607142569514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 181
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefbd00446960afc0800000000000000
+      internalID: -3485670232292474898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 181
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e015e1cfa2fd7acc0800000000000000
+      internalID: -3699743193150107378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 181
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a1419905e7238a0800000000000000
+      internalID: -6326855641871410642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 181
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b636a8366aebc8d60800000000000000
+      internalID: 7893893868717499243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 181
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a3e6036aac51980800000000000000
+      internalID: -8568719900876588424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimePinkAttackRight9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 181
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463b5e0d351e3eb70800000000000000
+      internalID: 8927226636481704804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 181
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac6f075b6bb39ab0800000000000000
+      internalID: -5002448691381965661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight4
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 181
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfff20557987d5bc0800000000000000
+      internalID: -3792742719814434821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenLeft1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 149
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c4b69de824f2290800000000000000
+      internalID: -7913032838966195120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenLeft2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 149
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b06ada02e6f56540800000000000000
+      internalID: 5000674411969929396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 149
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfec3e923b54e3a40800000000000000
+      internalID: 5349790043166985979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight5
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 149
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff7272cbe2503ba0800000000000000
+      internalID: -6111293521808687113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenRight1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 117
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269d0d481d9969770800000000000000
+      internalID: 8617244062175517026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenRight2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 117
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d33d20d4d0bc380800000000000000
+      internalID: -8950045210057687649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 117
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8b673697aa0a470800000000000000
+      internalID: 8403904343009835180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 117
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9279d6456304880800000000000000
+      internalID: -8628837149798094377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc7e1fd69478510800000000000000
+      internalID: 1551289333211188207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe042e38162ca3f50800000000000000
+      internalID: 6862010706332631279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 85
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0aa6ee1e11f2020800000000000000
+      internalID: 2319091995184373951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 85
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c334c8b9e3eea0800000000000000
+      internalID: -5844570911621789494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 85
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3432dac737c6eb0800000000000000
+      internalID: -4725274929700584505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 85
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe7589177d6d9f40800000000000000
+      internalID: 5736861858636594930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 85
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330d438ed8604e1a0800000000000000
+      internalID: -6781287932357193677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 85
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b68e78a8ff99960800000000000000
+      internalID: 7609394015869889282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackLeft9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 85
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e16ba5076da7690800000000000000
+      internalID: -7603529242815095203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 85
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a3a1682e0a83100800000000000000
+      internalID: 87997087506643493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 85
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438c8907c34636400800000000000000
+      internalID: 316206609595942964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb16446e0caafeef0800000000000000
+      internalID: -76654923168325188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 53
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f4749809693b170800000000000000
+      internalID: 8193057694639673176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 53
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e4488b4e7123ac0800000000000000
+      internalID: -3877010058096914895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 53
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d85a211afbc6790800000000000000
+      internalID: -7535437377974203021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 53
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d5b831855e6e3e0800000000000000
+      internalID: -2024678816008676031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 53
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd95632deeaa83e0800000000000000
+      internalID: -2050634346789495302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 53
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c492f2a96487ad0800000000000000
+      internalID: -2704333948205839301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 53
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a99822cbbaf24480800000000000000
+      internalID: -8916288627916891741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeGreenAttackRight9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 53
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4fb8a219612acd0800000000000000
+      internalID: -2548449626398395219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 53
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4993ca02fedb9cc0800000000000000
+      internalID: -3703121137438058162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight8
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 53
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaedb0fb1be216a40800000000000000
+      internalID: 5359616372496916138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackLeft9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 21
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497968342ef9def30800000000000000
+      internalID: 4606513788014204820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeBlueAttackRight9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 21
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5791ccf1854d72b60800000000000000
+      internalID: 7721373561105684853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
