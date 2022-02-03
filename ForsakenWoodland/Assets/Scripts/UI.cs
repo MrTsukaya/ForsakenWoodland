@@ -9,8 +9,7 @@ public class UI : MonoBehaviour
     public PlayerController player;
     public Sprite heartEmpty, heartHalf, heartFull;
     public GameObject[] hearts;
-
-
+    
     void Start()
     {
     //Ustawiamy wartosc poczatkowa zycia gracza na maksimum

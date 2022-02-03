@@ -8,6 +8,7 @@ public class Coin : Collectable
     {
         base.OnCollect();
         GameManager.instance.gold += 1;
+        GameManager.instance.isCoinPicked = true;
         Destroy(gameObject);
     }
 }

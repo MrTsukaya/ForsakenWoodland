@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private bool killedAllEnemies = false;
     public List<GameObject> livingEnemies = new List<GameObject>();
 
-
+    public bool isCoinPicked = false;
     public int gold;
     
     public static GameManager instance;
