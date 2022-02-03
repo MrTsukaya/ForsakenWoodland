@@ -25,7 +25,6 @@ public class EnemyMovement : Killable
     void UpdatePath()
     {
         if (target != null)
-            agent.SetDestination(target.position);
-        Debug.Log(agent.destination);
+            agent.SetDestination(target.position);        
     }
 }

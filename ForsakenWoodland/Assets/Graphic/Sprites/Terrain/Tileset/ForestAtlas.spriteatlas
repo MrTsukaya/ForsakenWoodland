@@ -94,7 +94,13 @@ SpriteAtlas:
   - {fileID: 653719460670875540, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: -4312560126678984166, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: 6915871627532620002, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: 4505702757673749133, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   - {fileID: -3693139087151507823, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: 6020861512658290872, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: 4674571908292498676, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: -1202714759863457274, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: 1775957542473323816, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
+  - {fileID: -488185761010845390, guid: ad9db879287efba48b8b670e1ebc0151, type: 3}
   m_PackedSpriteNamesToIndex:
   - ground_10
   - ground_11
@@ -141,7 +147,13 @@ SpriteAtlas:
   - small_slime_0
   - small_slime_1
   - coin_5
+  - small_slime_2
   - coin_4
+  - small_slime_3
+  - small_slime_4
+  - small_slime_5
+  - small_slime_6
+  - small_slime_7
   m_RenderDataMap: {}
   m_Tag: ForestAtlas
   m_IsVariant: 0
