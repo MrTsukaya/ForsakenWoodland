@@ -86,7 +86,7 @@ public class PlayerController : Killable
             Shoot();       
         }
 
-        Debug.Log(currentHealth);
+        //Debug.Log(currentHealth);
     }
     private void FixedUpdate()
     {
