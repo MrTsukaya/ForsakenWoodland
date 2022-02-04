@@ -20,9 +20,8 @@ public class EnemyMovement : Killable
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         agent.speed = speed;
-        InvokeRepeating("UpdatePath", 0f, 0.5f);
     }
-    void UpdatePath()
+    protected void UpdatePath()
     {
         if (target != null)
             agent.SetDestination(target.position);        

@@ -7,7 +7,7 @@ public class Killable : MonoBehaviour
     [Header("HP Settings")]
     [SerializeField] public int currentHealth;
     [SerializeField] public int maxHealth;
-    [SerializeField] protected float pushRecoverySpeed = 0.2f;
+    [SerializeField] protected float pushRecoverySpeed = 0.02f;
     protected Rigidbody2D rb;
 
     protected float immuneTime = 0.1f;

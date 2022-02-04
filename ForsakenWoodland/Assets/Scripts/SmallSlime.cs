@@ -5,24 +5,41 @@ using UnityEngine.AI;
 
 public class SmallSlime : MonoBehaviour
 {
+    [Header("Slime Movement Settings")]
+    [SerializeField] protected float speed;
     NavMeshAgent agent;
+    private Vector3 start;
+    private Vector3 roam;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+        agent.speed = speed;
 
-        InvokeRepeating("SetNewPath", 1f, Random.Range(3f, 6f));
+        start = transform.position;        
+        InvokeRepeating("SetNewPath", 1f, Random.Range(1f, 2f));
     }
 
     void SetNewPath()
     {
-        var randomPointAround = Random.insideUnitCircle * 50f;
-        var targetPosition = transform.position + new Vector3(randomPointAround.x, 0, randomPointAround.y);
-
-        NavMeshHit hit;
-        if (NavMesh.SamplePosition(targetPosition, out hit, 4f, NavMesh.AllAreas))
+        roam = RandomDir();
+        agent.SetDestination(roam);
+    }
+    private Vector3 RoamingPosition()
+    {
+        return start + RandomDir() * Random.Range(5f, 15f);
+    }
+    private static Vector3 RandomDir()
+    {
+        return new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
         {
-            agent.destination = targetPosition;
+            Destroy(gameObject);
         }
     }
 }

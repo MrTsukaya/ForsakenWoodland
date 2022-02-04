@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 5708671653398648491}
   - component: {fileID: 405497009640308564}
   - component: {fileID: 2151758262748061264}
-  - component: {fileID: 5232962846024976103}
+  - component: {fileID: 514913851}
+  - component: {fileID: 514913846}
   m_Layer: 0
   m_Name: SmallPinkSlime
   m_TagString: Enemy
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357707106948474131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.776, y: -1.37, z: 118.13774}
-  m_LocalScale: {x: 2, y: 2, z: 0.4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -155,7 +156,26 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &5232962846024976103
+--- !u!95 &514913851
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357707106948474131}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 513eaa63959e1664094028ae685f6c5c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &514913846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,3 +187,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2722e681fd3ce1540a856c897e83908e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 1
