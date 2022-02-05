@@ -5,11 +5,22 @@ using UnityEngine.UI;
 
 public class SackAnimation : MonoBehaviour
 {
+    public static SackAnimation instance;
     Image image;
     public GameObject txt;
-    private void Start()
+    void Start()
     {
         image = GetComponent<Image>();
+    }
+    void Awake()
+    {
+        if (SackAnimation.instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(this.gameObject);
     }
     public void CoinIn()
     {
