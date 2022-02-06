@@ -103,7 +103,7 @@ public class PlayerController : Killable
         Instantiate(bolt, crossbow.position, crossbow.rotation);        
     }
 
-    protected override void Die()
+    public override void Die()
     {
         GameManager.instance.RestartLevel();
     }

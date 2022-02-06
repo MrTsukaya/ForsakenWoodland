@@ -47,7 +47,7 @@ public class SampleEnemy : EnemyMovement
             }
         }
     }
-    protected override void Die()
+    public override void Die()
     {
         GameManager.instance.livingEnemies.Remove(gameObject);
         GameManager.instance.EnemyDown();

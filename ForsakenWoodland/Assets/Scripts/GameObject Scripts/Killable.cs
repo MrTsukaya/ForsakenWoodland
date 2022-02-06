@@ -31,13 +31,8 @@ public class Killable : MonoBehaviour
             pushDirection = (transform.position - dmg.origin).normalized * dmg.pushForce;
             pushedForce = dmg.pushForce;
         }
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
     }
-    protected virtual void Die()
+    public virtual void Die()
     {
         Destroy(gameObject);
     }

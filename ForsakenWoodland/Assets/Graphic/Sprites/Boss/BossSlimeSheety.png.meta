@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: 33e59493733e8824abfd9cccf6d66046
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4929203823786840321
+    second: boss_KingSlime_scepter
+  - first:
+      213: -1705641960340480753
+    second: boss_KingSlime_Crown
+  - first:
+      213: -2627996380517652058
+    second: boss_KingSlime_bodySlam_Left_1
+  - first:
+      213: 7499183000330584021
+    second: boss_KingSlime_bodySlam_Left_2
+  - first:
+      213: -9159943805990686171
+    second: boss_KingSlime_bodySlam_Left_3
+  - first:
+      213: -2394758966544119001
+    second: boss_KingSlime_bodySlam_Left_4
+  - first:
+      213: -8612971631554092573
+    second: boss_KingSlime_bodySlam_Left_5
+  - first:
+      213: 8811680262038754907
+    second: boss_KingSlime_bodySlam_Left_6
+  - first:
+      213: 7161196256550374653
+    second: boss_KingSlime_bodySlam_Left_7
+  - first:
+      213: -6596316860725763192
+    second: boss_KingSlime_bodySlam_Left_8
+  - first:
+      213: -2942255636256880395
+    second: boss_KingSlime_bodySlam_Left_9
+  - first:
+      213: 8770186274267902514
+    second: boss_KingSlime_bodySlam_Right_1
+  - first:
+      213: -1335929934865670838
+    second: boss_KingSlime_bodySlam_Right_2
+  - first:
+      213: 6903662648979457676
+    second: boss_KingSlime_bodySlam_Right_3
+  - first:
+      213: 8832230429943117891
+    second: boss_KingSlime_bodySlam_Right_4
+  - first:
+      213: -3077260730594072805
+    second: boss_KingSlime_bodySlam_Right_5
+  - first:
+      213: 3292665302325019233
+    second: boss_KingSlime_bodySlam_Right_6
+  - first:
+      213: 5625292406579619353
+    second: boss_KingSlime_bodySlam_Right_7
+  - first:
+      213: 8146364121613320657
+    second: boss_KingSlime_bodySlam_Right_8
+  - first:
+      213: -3241286502074350858
+    second: boss_KingSlime_bodySlam_Right_9
+  - first:
+      213: -7930064796828875410
+    second: boss_KingSlime_Reproduce_1
+  - first:
+      213: -6805548602662021509
+    second: boss_KingSlime_Reproduce_2
+  - first:
+      213: 7413891042617384885
+    second: boss_KingSlime_Reproduce_3
+  - first:
+      213: 3046725957104157484
+    second: boss_KingSlime_Die_1
+  - first:
+      213: 4142983295789952704
+    second: boss_KingSlime_Die_2
+  - first:
+      213: -7106770516079984764
+    second: boss_KingSlime_Die_3
+  - first:
+      213: -2841878293631320863
+    second: boss_KingSlime_Die_4
+  - first:
+      213: 5653156002018173432
+    second: boss_KingSlime_Die_5
+  - first:
+      213: 4462336720011536896
+    second: boss_KingSlime_Die_6
+  - first:
+      213: 105632594030705360
+    second: boss_KingSlime_Die_7
+  - first:
+      213: -5592336043924767557
+    second: boss_KingSlime_Die_8
+  - first:
+      213: -3498849371439408574
+    second: BossSlimeSheety_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_KingSlime_scepter
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 454
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101df4ef2cc086440800000000000000
+      internalID: 4929203823786840321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Crown
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 464
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d97e78ca75458e0800000000000000
+      internalID: -1705641960340480753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 400
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9ab34373b778bd0800000000000000
+      internalID: -2627996380517652058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 400
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df3a58d433721860800000000000000
+      internalID: 7499183000330584021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 400
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522b261d3a751e080800000000000000
+      internalID: -9159943805990686171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 400
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bc47c686b14ced0800000000000000
+      internalID: -2394758966544119001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 400
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1a3b04fe3987880800000000000000
+      internalID: -8612971631554092573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 400
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5614251380694a70800000000000000
+      internalID: 8811680262038754907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 400
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcca8ebd0ea16360800000000000000
+      internalID: 7161196256550374653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 400
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883658293cc2574a0800000000000000
+      internalID: -6596316860725763192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Left_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 400
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8848a66120b27d0800000000000000
+      internalID: -2942255636256880395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 336
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232beb333f5f5b970800000000000000
+      internalID: 8770186274267902514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 336
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d55836dc2d57de0800000000000000
+      internalID: -1335929934865670838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 336
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c868d812a9cbecf50800000000000000
+      internalID: 6903662648979457676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 336
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348b727e7c2629a70800000000000000
+      internalID: 8832230429943117891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 336
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b176ea76baf5b45d0800000000000000
+      internalID: -3077260730594072805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 336
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162465da5a5e1bd20800000000000000
+      internalID: 3292665302325019233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 336
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91661e3c3ad011e40800000000000000
+      internalID: 5625292406579619353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 336
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1cfbfd103bd0170800000000000000
+      internalID: 8146364121613320657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_bodySlam_Right_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 336
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f207947913a403d0800000000000000
+      internalID: -3241286502074350858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Reproduce_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 272
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e654f232510c2f190800000000000000
+      internalID: -7930064796828875410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Reproduce_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b769cac6a95dd81a0800000000000000
+      internalID: -6805548602662021509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Reproduce_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 272
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfd8ae6f9e63e660800000000000000
+      internalID: 7413891042617384885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 208
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23c721ad15284a20800000000000000
+      internalID: 3046725957104157484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 208
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceefe76b55de7930800000000000000
+      internalID: 4142983295789952704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 208
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f35d07eddaf5d90800000000000000
+      internalID: -7106770516079984764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 208
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec3635bfbe9f88d0800000000000000
+      internalID: -2841878293631320863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 208
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f12920ae6b047e40800000000000000
+      internalID: 5653156002018173432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 207
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a2878ba976ded30800000000000000
+      internalID: 4462336720011536896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 208
+        width: 56
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da37ebd848477100800000000000000
+      internalID: 105632594030705360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_KingSlime_Die_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 208
+        width: 42
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc304d5ff70462b0800000000000000
+      internalID: -5592336043924767557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossSlimeSheety_33
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 194
+        width: 35
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a51ccc807917fc0800000000000000
+      internalID: -3498849371439408574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Slime : EnemyMovement
-{    
+public class BossSlime : EnemyMovement
+{
     [Header("Enemy DMG Settings")]
     [SerializeField] private int damage = 20;
     [SerializeField] private float pushForce = 2f;
-    [SerializeField] private float cooldown = 0.3f;    
+    [SerializeField] private float cooldown = 0.3f;
     [SerializeField] private float lastSwing;
+    [SerializeField] public float attackRange;
     [Header("Enemy Loot Settings")]
     [SerializeField] GameObject[] drop;
 
@@ -20,6 +21,7 @@ public class Slime : EnemyMovement
         animator = GetComponent<Animator>();
         InvokeRepeating("UpdatePath", 0f, 0.5f);
     }
+
     private void FixedUpdate()
     {
         MoveEnemy();
@@ -46,22 +48,11 @@ public class Slime : EnemyMovement
         else
             rb.velocity = Vector3.zero;
     }
-    //Attack
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void SpeedReverse(int x)
     {
-        if (collision.collider.CompareTag("Player"))
-        {
-            if (Time.time - lastSwing > cooldown)
-            {
-                lastSwing = Time.time;
-                Damage dmg = new Damage(transform.position, damage, pushForce);
-                collision.collider.SendMessage("TakeDamage", dmg);
-                animator.SetTrigger("Charge");
-                pushedForce = 1;
-            }
-        }
+        speed = x;
     }
-    protected override void Die()
+    public override void Die()
     {
         GameManager.instance.livingEnemies.Remove(gameObject);
         GameManager.instance.EnemyDown();
@@ -72,7 +63,7 @@ public class Slime : EnemyMovement
     private void Drop()
     {
         int chance = Random.Range(1, 5);
-        if (chance == 1) 
+        if (chance == 1)
             Instantiate(drop[1], transform.position, transform.rotation);
         if (chance == 2)
             Instantiate(drop[2], transform.position, transform.rotation);
@@ -89,6 +80,4 @@ public class Slime : EnemyMovement
         theScale.x *= -1;
         transform.localScale = theScale;
     }
-
 }
-
