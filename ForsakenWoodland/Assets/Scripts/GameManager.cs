@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
     private int sceneIndex;
 
-    private int enemyCount;
+    public int enemyCount;
     private bool killedAllEnemies = false;
     public List<GameObject> livingEnemies = new List<GameObject>();
 

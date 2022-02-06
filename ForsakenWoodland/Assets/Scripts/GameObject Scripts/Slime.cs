@@ -11,6 +11,7 @@ public class Slime : EnemyMovement
     [SerializeField] private float lastSwing;
     [Header("Enemy Loot Settings")]
     [SerializeField] GameObject[] drop;
+    [SerializeField] private float attackRange;
 
     private bool facingRight = false;
     private Animator animator;
@@ -25,6 +26,9 @@ public class Slime : EnemyMovement
         MoveEnemy();
         if (currentHealth <= 0)
             Die();
+
+        if (Vector2.Distance(target.position, rb.position) <= attackRange)
+            animator.SetTrigger("Charge");
     }
     private void MoveEnemy()
     {
@@ -49,7 +53,19 @@ public class Slime : EnemyMovement
             rb.velocity = Vector3.zero;
     }
     //Attack
-    /*private void OnCollisionEnter2D(Collision2D collision)
+    public void PreparePlunge()
+    {
+        agent.speed = 0.3f;
+    }
+    public void Plunge()
+    {
+        agent.speed = 4f;
+    }
+    public void EndPlunge()
+    {
+        agent.speed = 1f;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
         {
@@ -62,7 +78,7 @@ public class Slime : EnemyMovement
                 pushedForce = 1;
             }
         }
-    }*/
+    }
     public override void Die()
     {
         GameManager.instance.livingEnemies.Remove(gameObject);

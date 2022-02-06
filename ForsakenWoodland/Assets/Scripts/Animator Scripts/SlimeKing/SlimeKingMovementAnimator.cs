@@ -25,7 +25,7 @@ public class SlimeKingMovementAnimator : StateMachineBehaviour
         if (boss_slime.currentHealth <= 0)
             animator.SetTrigger("IsDead");
 
-        int r = Random.Range(1, 1000);
+        int r = Random.Range(1, 500);
         if (r == 1)
             animator.SetTrigger("MoreSlimes");
     }

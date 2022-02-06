@@ -177,6 +177,7 @@ MonoBehaviour:
   - {fileID: 7075085950687207386, guid: 5d228a9fb3cf27147b32d898526787f5, type: 3}
   - {fileID: 1357707106948474131, guid: 96d121a9475d6ce4e9b82d5b3241ad8a, type: 3}
   - {fileID: 5634945215258829723, guid: 0eda47b4c1cfda84ea39f7c09dde8956, type: 3}
+  attackRange: 0.8
 --- !u!195 &8606344175587329430
 NavMeshAgent:
   m_ObjectHideFlags: 0

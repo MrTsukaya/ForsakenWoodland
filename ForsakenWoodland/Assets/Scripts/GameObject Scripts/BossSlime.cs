@@ -10,6 +10,7 @@ public class BossSlime : EnemyMovement
     [SerializeField] private float cooldown = 0.3f;
     [SerializeField] private float lastSwing;
     [SerializeField] public float attackRange;
+    public LayerMask attackMask;
     [Header("Enemy Loot Settings")]
     [SerializeField] GameObject[] drop;
 
@@ -48,10 +49,38 @@ public class BossSlime : EnemyMovement
         else
             rb.velocity = Vector3.zero;
     }
-    public void SpeedReverse(int x)
+
+    public void SpeedReverse(float x)
     {
-        speed = x;
+        agent.speed = x;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            if (Time.time - lastSwing > cooldown)
+            {
+                lastSwing = Time.time;
+                Damage dmg = new Damage(transform.position, damage, pushForce);
+                collision.collider.SendMessage("TakeDamage", dmg);
+                pushedForce = 1;
+            }
+        }
+    }
+
+    public void PreparePlunge()
+    {
+        agent.speed = 0.3f;
+    }
+    public void Plunge()
+    {
+        agent.speed = 4f;
+    }
+    public void EndPlunge()
+    {
+        agent.speed = 1f;
+    }
+
     public override void Die()
     {
         GameManager.instance.livingEnemies.Remove(gameObject);
